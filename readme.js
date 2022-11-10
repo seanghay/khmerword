@@ -27,7 +27,14 @@ for (let i = 1; i <= 14; i++) {
   createSnippet(rnd, result);
 }
 
-mk += '> this file is generated at ' + new Date().toISOString()
+mk += "\n## License\n";
+mk += "\n```\n"
+mk += fs.readFileSync('license', 'utf-8');
+mk += "\n```\n"
+
+mk += '\n---\n'
+
+mk += '>The file is generated at ' + new Date().toISOString()
 
 fs.writeFileSync('readme.md', mk, 'utf-8');
 

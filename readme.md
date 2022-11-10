@@ -83,99 +83,127 @@ const result = integerAsWord(9);
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(10);
-// => ដប់
+const result = integerAsWord(27);
+// => ម្ភៃប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(112);
-// => មួយរយដប់ពីរ
+const result = integerAsWord(100);
+// => មួយរយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(3074);
-// => បីពាន់ចិតសិបបួន
+const result = integerAsWord(1165);
+// => មួយពាន់មួយរយហុកសិបប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(44342);
-// => បួនម៉ឺនបួនពាន់បីរយសែសិបពីរ
+const result = integerAsWord(17931);
+// => មួយម៉ឺនប្រាំពីរពាន់ប្រាំបួនរយសាមសិបមួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(285301);
-// => ពីរសែនប្រាំបីម៉ឺនប្រាំពាន់បីរយមួយ
+const result = integerAsWord(572270);
+// => ប្រាំសែនប្រាំពីរម៉ឺនពីរពាន់ពីររយចិតសិប
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1765661);
-// => មួយលានប្រាំពីរសែនប្រាំមួយម៉ឺនប្រាំពាន់ប្រាំមួយរយហុកសិបមួយ
+const result = integerAsWord(1233672);
+// => មួយលានពីរសែនបីម៉ឺនបីពាន់ប្រាំមួយរយចិតសិបពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(19775776);
-// => មួយលានប្រាំបួនលានប្រាំពីរសែនប្រាំពីរម៉ឺនប្រាំពាន់ប្រាំពីររយចិតសិបប្រាំមួយ
+const result = integerAsWord(22980650);
+// => ពីរលានពីរលានប្រាំបួនសែនប្រាំបីម៉ឺនប្រាំមួយរយហាសិប
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(18471365);
-// => មួយលានប្រាំបីលានបួនសែនប្រាំពីរម៉ឺនមួយពាន់បីរយហុកសិបប្រាំ
+const result = integerAsWord(166068286);
+// => មួយលានប្រាំមួយលានប្រាំមួយលានប្រាំមួយម៉ឺនប្រាំបីពាន់ពីររយប៉ែតសិបប្រាំមួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(5585599043);
-// => ប្រាំប៊ីលានប្រាំលានប្រាំបីលានប្រាំលានប្រាំសែនប្រាំបួនម៉ឺនប្រាំបួនពាន់សែសិបបី
+const result = integerAsWord(2858162765);
+// => ពីរប៊ីលានប្រាំបីលានប្រាំលានប្រាំបីលានមួយសែនប្រាំមួយម៉ឺនពីរពាន់ប្រាំពីររយហុកសិបប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(66894080339);
-// => ប្រាំមួយប៊ីលានប្រាំមួយប៊ីលានប្រាំបីលានប្រាំបួនលានបួនលានប្រាំបីម៉ឺនបីរយសាមសិបប្រាំបួន
+const result = integerAsWord(29735324156);
+// => ពីរប៊ីលានប្រាំបួនប៊ីលានប្រាំពីរលានបីលានប្រាំលានបីសែនពីរម៉ឺនបួនពាន់មួយរយហាសិបប្រាំមួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(102370232916);
-// => មួយប៊ីលានពីរប៊ីលានបីលានប្រាំពីរលានពីរសែនបីម៉ឺនពីរពាន់ប្រាំបួនរយដប់ប្រាំមួយ
+const result = integerAsWord(224494699220);
+// => ពីរប៊ីលានពីរប៊ីលានបួនប៊ីលានបួនលានប្រាំបួនលានបួនលានប្រាំមួយសែនប្រាំបួនម៉ឺនប្រាំបួនពាន់ពីររយម្ភៃ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1000000000000);
-// => មួយទ្រីលាន
+const result = integerAsWord(5261747156557);
+// => ប្រាំទ្រីលានពីរប៊ីលានប្រាំមួយប៊ីលានមួយប៊ីលានប្រាំពីរលានបួនលានប្រាំពីរលានមួយសែនប្រាំម៉ឺនប្រាំមួយពាន់ប្រាំរយហាសិបប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(7492754802110);
-// => ប្រាំពីរទ្រីលានបួនប៊ីលានប្រាំបួនប៊ីលានពីរប៊ីលានប្រាំពីរលានប្រាំលានបួនលានប្រាំបីសែនពីរពាន់មួយរយដប់
+const result = integerAsWord(51869864768367);
+// => ប្រាំទ្រីលានមួយទ្រីលានប្រាំបីប៊ីលានប្រាំមួយប៊ីលានប្រាំបួនប៊ីលានប្រាំបីលានប្រាំមួយលានបួនលានប្រាំពីរសែនប្រាំមួយម៉ឺនប្រាំបីពាន់បីរយហុកសិបប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(237742676354757);
-// => ពីរទ្រីលានបីទ្រីលានប្រាំពីរទ្រីលានប្រាំពីរប៊ីលានបួនប៊ីលានពីរប៊ីលានប្រាំមួយលានប្រាំពីរលានប្រាំមួយលានបីសែនប្រាំម៉ឺនបួនពាន់ប្រាំពីររយហាសិបប្រាំពីរ
+const result = integerAsWord(149503584006187);
+// => មួយទ្រីលានបួនទ្រីលានប្រាំបួនទ្រីលានប្រាំប៊ីលានបីប៊ីលានប្រាំលានប្រាំបីលានបួនលានប្រាំមួយពាន់មួយរយប៉ែតសិបប្រាំពីរ
 ```
 
-> this file is generated at 2022-11-10T05:10:27.832Z
+
+## License
+
+```
+MIT License
+
+Copyright (c) 2022 Seanghay Yath
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+>The file is generated at 2022-11-10T05:12:36.486Z
