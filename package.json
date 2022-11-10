@@ -6,11 +6,11 @@
 	"repository": "seanghay/khmerword",
 	"files": [
 		"cjs",
-		"index.mjs",
+		"index.js",
 		"index.d.ts"
 	],
 	"scripts": {
-		"build": "rollup index.mjs --file cjs/index.js --format cjs"
+		"build": "rollup index.js --file cjs/index.js --format cjs"
 	},
 	"keywords": [
 		"khmer",
