@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { integerAsWord } from './index.mjs'
+import { integerAsWord } from './index.js'
 
 let mk = `## Khmer word from integer \n\n`;
 
