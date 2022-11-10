@@ -4,7 +4,7 @@ import { integerAsWord } from './index.mjs'
 let mk = `## Khmer word from integer \n\n`;
 
 const createSnippet = (rnd, result) => {
-  const snippet = `const result = integerAsWord(${rnd});\n // => ${result}`;
+  const snippet = `const result = integerAsWord(${rnd});\n// => ${result}`;
   mk += "```js\n" + snippet + "\n```" + "\n\n"
 }
 
