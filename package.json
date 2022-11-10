@@ -1,0 +1,25 @@
+{
+	"name": "khmerword",
+	"version": "0.0.0",
+	"description": "Khmer number to word",
+	"type": "module",
+	"repository": "seanghay/khmerword",
+	"files": [
+		"cjs",
+		"index.mjs",
+		"index.d.ts"
+	],
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"keywords": [
+		"khmer",
+		"numerals",
+		"number"
+	],
+	"author": "Seanghay Yath <seanghay.dev@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"rollup": "^3.2.5"
+	}
+}
