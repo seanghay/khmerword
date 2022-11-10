@@ -83,99 +83,99 @@ const result = integerAsWord(9, "-");
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(10, "-");
-// => ដប់
+const result = integerAsWord(23, "-");
+// => ម្ភៃបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(476, "-");
-// => បួនរយ-ចិតសិបប្រាំមួយ
+const result = integerAsWord(707, "-");
+// => ប្រាំពីររយ-ប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1000, "-");
-// => មួយពាន់
+const result = integerAsWord(1634, "-");
+// => មួយពាន់-ប្រាំមួយរយ-សាមសិបបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(20178, "-");
-// => ពីរម៉ឺន-មួយរយ-ចិតសិបប្រាំបី
+const result = integerAsWord(10000, "-");
+// => មួយម៉ឺន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(284651, "-");
-// => ពីរសែន-ប្រាំបីម៉ឺន-បួនពាន់-ប្រាំមួយរយ-ហាសិបមួយ
+const result = integerAsWord(157515, "-");
+// => មួយសែន-ប្រាំម៉ឺន-ប្រាំពីរពាន់-ប្រាំរយ-ដប់ប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(3238775, "-");
-// => បីលាន-ពីរសែន-បីម៉ឺន-ប្រាំបីពាន់-ប្រាំពីររយ-ចិតសិបប្រាំ
+const result = integerAsWord(3816987, "-");
+// => បីលាន-ប្រាំបីសែន-មួយម៉ឺន-ប្រាំមួយពាន់-ប្រាំបួនរយ-ប៉ែតសិបប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(35995337, "-");
-// => បីលាន-ប្រាំលាន-ប្រាំបួនសែន-ប្រាំបួនម៉ឺន-ប្រាំពាន់-បីរយ-សាមសិបប្រាំពីរ
+const result = integerAsWord(11512628, "-");
+// => មួយលាន-មួយលាន-ប្រាំសែន-មួយម៉ឺន-ពីរពាន់-ប្រាំមួយរយ-ម្ភៃប្រាំបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(330801860, "-");
-// => បីលាន-បីលាន-ប្រាំបីសែន-មួយពាន់-ប្រាំបីរយ-ហុកសិប
+const result = integerAsWord(484927911, "-");
+// => បួនលាន-ប្រាំបីលាន-បួនលាន-ប្រាំបួនសែន-ពីរម៉ឺន-ប្រាំពីរពាន់-ប្រាំបួនរយ-ដប់មួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(3008985473, "-");
-// => បីប៊ីលាន-ប្រាំបីលាន-ប្រាំបួនសែន-ប្រាំបីម៉ឺន-ប្រាំពាន់-បួនរយ-ចិតសិបបី
+const result = integerAsWord(5923631249, "-");
+// => ប្រាំប៊ីលាន-ប្រាំបួនលាន-ពីរលាន-បីលាន-ប្រាំមួយសែន-បីម៉ឺន-មួយពាន់-ពីររយ-សែសិបប្រាំបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(26876216587, "-");
-// => ពីរប៊ីលាន-ប្រាំមួយប៊ីលាន-ប្រាំបីលាន-ប្រាំពីរលាន-ប្រាំមួយលាន-ពីរសែន-មួយម៉ឺន-ប្រាំមួយពាន់-ប្រាំរយ-ប៉ែតសិបប្រាំពីរ
+const result = integerAsWord(74138961608, "-");
+// => ប្រាំពីរប៊ីលាន-បួនប៊ីលាន-មួយលាន-បីលាន-ប្រាំបីលាន-ប្រាំបួនសែន-ប្រាំមួយម៉ឺន-មួយពាន់-ប្រាំមួយរយ-ប្រាំបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(100000000000, "-");
-// => មួយប៊ីលាន
+const result = integerAsWord(432829119618, "-");
+// => បួនប៊ីលាន-បីប៊ីលាន-ពីរប៊ីលាន-ប្រាំបីលាន-ពីរលាន-ប្រាំបួនលាន-មួយសែន-មួយម៉ឺន-ប្រាំបួនពាន់-ប្រាំមួយរយ-ដប់ប្រាំបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1276551296082, "-");
-// => មួយទ្រីលាន-ពីរប៊ីលាន-ប្រាំពីរប៊ីលាន-ប្រាំមួយប៊ីលាន-ប្រាំលាន-ប្រាំលាន-មួយលាន-ពីរសែន-ប្រាំបួនម៉ឺន-ប្រាំមួយពាន់-ប៉ែតសិបពីរ
+const result = integerAsWord(5065825352484, "-");
+// => ប្រាំទ្រីលាន-ប្រាំមួយប៊ីលាន-ប្រាំប៊ីលាន-ប្រាំបីលាន-ពីរលាន-ប្រាំលាន-បីសែន-ប្រាំម៉ឺន-ពីរពាន់-បួនរយ-ប៉ែតសិបបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(7977809706923, "-");
-// => ប្រាំពីរទ្រីលាន-ប្រាំបួនប៊ីលាន-ប្រាំពីរប៊ីលាន-ប្រាំពីរប៊ីលាន-ប្រាំបីលាន-ប្រាំបួនលាន-ប្រាំពីរសែន-ប្រាំមួយពាន់-ប្រាំបួនរយ-ម្ភៃបី
+const result = integerAsWord(19603642625833, "-");
+// => មួយទ្រីលាន-ប្រាំបួនទ្រីលាន-ប្រាំមួយប៊ីលាន-បីប៊ីលាន-ប្រាំមួយលាន-បួនលាន-ពីរលាន-ប្រាំមួយសែន-ពីរម៉ឺន-ប្រាំពាន់-ប្រាំបីរយ-សាមសិបបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(285846892168938, "-");
-// => ពីរទ្រីលាន-ប្រាំបីទ្រីលាន-ប្រាំទ្រីលាន-ប្រាំបីប៊ីលាន-បួនប៊ីលាន-ប្រាំមួយប៊ីលាន-ប្រាំបីលាន-ប្រាំបួនលាន-ពីរលាន-មួយសែន-ប្រាំមួយម៉ឺន-ប្រាំបីពាន់-ប្រាំបួនរយ-សាមសិបប្រាំបី
+const result = integerAsWord(100000000000000, "-");
+// => មួយទ្រីលាន
 ```
 
 
@@ -206,4 +206,4 @@ SOFTWARE.
 ```
 
 ---
->The file is generated at 2022-11-10T05:23:19.939Z
+>The file is generated at 2022-11-10T05:26:58.972Z
