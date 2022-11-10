@@ -10,7 +10,7 @@
 		"index.d.ts"
 	],
 	"scripts": {
-		"build": "rollup -c"
+		"build": "rollup index.mjs --file cjs/index.js --format cjs"
 	},
 	"keywords": [
 		"khmer",

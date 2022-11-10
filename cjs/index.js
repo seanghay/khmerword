@@ -1,5 +1,6 @@
 'use strict';
 
+// heavily inspired/copied from https://github.com/vh13294/number-to-khmer-word
 const SINGLE_DIGITS = ['សូន្យ', 'មួយ', 'ពីរ', 'បី', 'បួន', 'ប្រាំ', 'ប្រាំមួយ', 'ប្រាំពីរ', 'ប្រាំបី', 'ប្រាំបួន'];
 const MULTIPLE_DIGITS = ['', 'ដប់', 'ម្ភៃ', 'សាមសិប', 'សែសិប', 'ហាសិប', 'ហុកសិប', 'ចិតសិប', 'ប៉ែតសិប', 'កៅសិប'];
 const SUFFIX_MAP = new Map([
