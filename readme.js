@@ -11,19 +11,19 @@ mk += "npm install khmerword"
 mk += "\n```\n"
 
 const createSnippet = (rnd, result) => {
-  const snippet = `import { integerAsWord } from "khmerword";\n\nconst result = integerAsWord(${rnd});\n// => ${result}`;
+  const snippet = `import { integerAsWord } from "khmerword";\n\nconst result = integerAsWord(${rnd}, "-");\n// => ${result}`;
   mk += "```js\n" + snippet + "\n```" + "\n\n"
 }
 
 mk += "\n## Usage\n\n";
 
-for (let i = 0; i < 10; i++) createSnippet(i, integerAsWord(i))
+for (let i = 0; i < 10; i++) createSnippet(i, integerAsWord(i, '-'))
 
 for (let i = 1; i <= 14; i++) {
   const min = Math.pow(10, i);
   const max = min * (Math.floor(Math.random() * 10))
   const rnd = Math.floor((max - min) * Math.random()) + min
-  const result = integerAsWord(rnd)
+  const result = integerAsWord(rnd, '-')
   createSnippet(rnd, result);
 }
 
