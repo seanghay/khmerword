@@ -1,123 +1,181 @@
 ## Khmer word from integer 
 
+Convert unsinged integer to Khmer word
+
+## Installation
+
+```
+npm install khmerword
+```
+
+## Usage
+
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(0);
 // => សូន្យ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(1);
 // => មួយ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(2);
 // => ពីរ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(3);
 // => បី
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(4);
 // => បួន
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(5);
 // => ប្រាំ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(6);
 // => ប្រាំមួយ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(7);
 // => ប្រាំពីរ
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(8);
 // => ប្រាំបី
 ```
 
 ```js
+import { integerAsWord } from "khmerword";
+
 const result = integerAsWord(9);
 // => ប្រាំបួន
 ```
 
 ```js
-const result = integerAsWord(65);
-// => ហុកសិបប្រាំ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(10);
+// => ដប់
 ```
 
 ```js
-const result = integerAsWord(101);
-// => មួយរយមួយ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(112);
+// => មួយរយដប់ពីរ
 ```
 
 ```js
-const result = integerAsWord(1719);
-// => មួយពាន់ប្រាំពីររយដប់ប្រាំបួន
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(3074);
+// => បីពាន់ចិតសិបបួន
 ```
 
 ```js
-const result = integerAsWord(13589);
-// => មួយម៉ឺនបីពាន់ប្រាំរយប៉ែតសិបប្រាំបួន
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(44342);
+// => បួនម៉ឺនបួនពាន់បីរយសែសិបពីរ
 ```
 
 ```js
-const result = integerAsWord(202791);
-// => ពីរសែនពីរពាន់ប្រាំពីររយកៅសិបមួយ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(285301);
+// => ពីរសែនប្រាំបីម៉ឺនប្រាំពាន់បីរយមួយ
 ```
 
 ```js
-const result = integerAsWord(7824663);
-// => ប្រាំពីរលានប្រាំបីសែនពីរម៉ឺនបួនពាន់ប្រាំមួយរយហុកសិបបី
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(1765661);
+// => មួយលានប្រាំពីរសែនប្រាំមួយម៉ឺនប្រាំពាន់ប្រាំមួយរយហុកសិបមួយ
 ```
 
 ```js
-const result = integerAsWord(42072532);
-// => បួនលានពីរលានប្រាំពីរម៉ឺនពីរពាន់ប្រាំរយសាមសិបពីរ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(19775776);
+// => មួយលានប្រាំបួនលានប្រាំពីរសែនប្រាំពីរម៉ឺនប្រាំពាន់ប្រាំពីររយចិតសិបប្រាំមួយ
 ```
 
 ```js
-const result = integerAsWord(329154006);
-// => បីលានពីរលានប្រាំបួនលានមួយសែនប្រាំម៉ឺនបួនពាន់ប្រាំមួយ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(18471365);
+// => មួយលានប្រាំបីលានបួនសែនប្រាំពីរម៉ឺនមួយពាន់បីរយហុកសិបប្រាំ
 ```
 
 ```js
-const result = integerAsWord(1000000000);
-// => មួយប៊ីលាន
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(5585599043);
+// => ប្រាំប៊ីលានប្រាំលានប្រាំបីលានប្រាំលានប្រាំសែនប្រាំបួនម៉ឺនប្រាំបួនពាន់សែសិបបី
 ```
 
 ```js
-const result = integerAsWord(18096834115);
-// => មួយប៊ីលានប្រាំបីប៊ីលានប្រាំបួនលានប្រាំមួយលានប្រាំបីសែនបីម៉ឺនបួនពាន់មួយរយដប់ប្រាំ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(66894080339);
+// => ប្រាំមួយប៊ីលានប្រាំមួយប៊ីលានប្រាំបីលានប្រាំបួនលានបួនលានប្រាំបីម៉ឺនបីរយសាមសិបប្រាំបួន
 ```
 
 ```js
-const result = integerAsWord(404347522253);
-// => បួនប៊ីលានបួនប៊ីលានបីលានបួនលានប្រាំពីរលានប្រាំសែនពីរម៉ឺនពីរពាន់ពីររយហាសិបបី
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(102370232916);
+// => មួយប៊ីលានពីរប៊ីលានបីលានប្រាំពីរលានពីរសែនបីម៉ឺនពីរពាន់ប្រាំបួនរយដប់ប្រាំមួយ
 ```
 
 ```js
-const result = integerAsWord(1929487838385);
-// => មួយទ្រីលានប្រាំបួនប៊ីលានពីរប៊ីលានប្រាំបួនប៊ីលានបួនលានប្រាំបីលានប្រាំពីរលានប្រាំបីសែនបីម៉ឺនប្រាំបីពាន់បីរយប៉ែតសិបប្រាំ
-```
+import { integerAsWord } from "khmerword";
 
-```js
-const result = integerAsWord(10000000000000);
+const result = integerAsWord(1000000000000);
 // => មួយទ្រីលាន
 ```
 
 ```js
-const result = integerAsWord(255601538142111);
-// => ពីរទ្រីលានប្រាំទ្រីលានប្រាំទ្រីលានប្រាំមួយប៊ីលានមួយប៊ីលានប្រាំលានបីលានប្រាំបីលានមួយសែនបួនម៉ឺនពីរពាន់មួយរយដប់មួយ
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(7492754802110);
+// => ប្រាំពីរទ្រីលានបួនប៊ីលានប្រាំបួនប៊ីលានពីរប៊ីលានប្រាំពីរលានប្រាំលានបួនលានប្រាំបីសែនពីរពាន់មួយរយដប់
 ```
 
-> this file is generated at 2022-11-10T05:06:49.835Z
+```js
+import { integerAsWord } from "khmerword";
+
+const result = integerAsWord(237742676354757);
+// => ពីរទ្រីលានបីទ្រីលានប្រាំពីរទ្រីលានប្រាំពីរប៊ីលានបួនប៊ីលានពីរប៊ីលានប្រាំមួយលានប្រាំពីរលានប្រាំមួយលានបីសែនប្រាំម៉ឺនបួនពាន់ប្រាំពីររយហាសិបប្រាំពីរ
+```
+
+> this file is generated at 2022-11-10T05:10:27.832Z

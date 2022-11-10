@@ -3,11 +3,19 @@ import { integerAsWord } from './index.mjs'
 
 let mk = `## Khmer word from integer \n\n`;
 
+mk += 'Convert unsinged integer to Khmer word\n\n';
+
+mk += "## Installation\n\n";
+mk += "```\n"
+mk += "npm install khmerword"
+mk += "\n```\n"
+
 const createSnippet = (rnd, result) => {
-  const snippet = `const result = integerAsWord(${rnd});\n// => ${result}`;
+  const snippet = `import { integerAsWord } from "khmerword";\n\nconst result = integerAsWord(${rnd});\n// => ${result}`;
   mk += "```js\n" + snippet + "\n```" + "\n\n"
 }
 
+mk += "\n## Usage\n\n";
 
 for (let i = 0; i < 10; i++) createSnippet(i, integerAsWord(i))
 
