@@ -83,99 +83,99 @@ const result = integerAsWord(9);
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(11);
-// => ដប់មួយ
+const result = integerAsWord(22);
+// => ម្ភៃពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(100);
-// => មួយរយ
+const result = integerAsWord(20);
+// => ម្ភៃ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(3337);
-// => បីពាន់បីរយសាមសិបប្រាំពីរ
+const result = integerAsWord(1007);
+// => មួយពាន់ប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(33545);
-// => បីម៉ឺនបីពាន់ប្រាំរយសែសិបប្រាំ
+const result = integerAsWord(54819);
+// => ប្រាំម៉ឺនបួនពាន់ប្រាំបីរយដប់ប្រាំបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(196093);
-// => មួយសែនប្រាំបួនម៉ឺនប្រាំមួយពាន់កៅសិបបី
+const result = integerAsWord(45223);
+// => បួនម៉ឺនប្រាំពាន់ពីររយម្ភៃបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1914295);
-// => មួយលានប្រាំបួនសែនមួយម៉ឺនបួនពាន់ពីររយកៅសិបប្រាំ
+const result = integerAsWord(2018312);
+// => ពីរលានមួយម៉ឺនប្រាំបីពាន់បីរយដប់ពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(77405432);
-// => ប្រាំពីរលានប្រាំពីរលានបួនសែនប្រាំពាន់បួនរយសាមសិបពីរ
+const result = integerAsWord(19460572);
+// => មួយលានប្រាំបួនលានបួនសែនប្រាំមួយម៉ឺនប្រាំរយចិតសិបពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(657332254);
-// => ប្រាំមួយលានប្រាំលានប្រាំពីរលានបីសែនបីម៉ឺនពីរពាន់ពីររយហាសិបបួន
+const result = integerAsWord(270169032);
+// => ពីរលានប្រាំពីរលានមួយសែនប្រាំមួយម៉ឺនប្រាំបួនពាន់សាមសិបពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1571727907);
-// => មួយប៊ីលានប្រាំលានប្រាំពីរលានមួយលានប្រាំពីរសែនពីរម៉ឺនប្រាំពីរពាន់ប្រាំបួនរយប្រាំពីរ
+const result = integerAsWord(3138570333);
+// => បីប៊ីលានមួយលានបីលានប្រាំបីលានប្រាំសែនប្រាំពីរម៉ឺនបីរយសាមសិបបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(28294965823);
-// => ពីរប៊ីលានប្រាំបីប៊ីលានពីរលានប្រាំបួនលានបួនលានប្រាំបួនសែនប្រាំមួយម៉ឺនប្រាំពាន់ប្រាំបីរយម្ភៃបី
+const result = integerAsWord(21906591625);
+// => ពីរប៊ីលានមួយប៊ីលានប្រាំបួនលានប្រាំមួយលានប្រាំសែនប្រាំបួនម៉ឺនមួយពាន់ប្រាំមួយរយម្ភៃប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(419712806326);
-// => បួនប៊ីលានមួយប៊ីលានប្រាំបួនប៊ីលានប្រាំពីរលានមួយលានពីរលានប្រាំបីសែនប្រាំមួយពាន់បីរយម្ភៃប្រាំមួយ
+const result = integerAsWord(140269601636);
+// => មួយប៊ីលានបួនប៊ីលានពីរលានប្រាំមួយលានប្រាំបួនលានប្រាំមួយសែនមួយពាន់ប្រាំមួយរយសាមសិបប្រាំមួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1207693945674);
-// => មួយទ្រីលានពីរប៊ីលានប្រាំពីរប៊ីលានប្រាំមួយលានប្រាំបួនលានបីលានប្រាំបួនសែនបួនម៉ឺនប្រាំពាន់ប្រាំមួយរយចិតសិបបួន
+const result = integerAsWord(1056163358090);
+// => មួយទ្រីលានប្រាំប៊ីលានប្រាំមួយប៊ីលានមួយលានប្រាំមួយលានបីលានបីសែនប្រាំម៉ឺនប្រាំបីពាន់កៅសិប
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(37835432035833);
-// => បីទ្រីលានប្រាំពីរទ្រីលានប្រាំបីប៊ីលានបីប៊ីលានប្រាំប៊ីលានបួនលានបីលានពីរលានបីម៉ឺនប្រាំពាន់ប្រាំបីរយសាមសិបបី
+const result = integerAsWord(86384859482843);
+// => ប្រាំបីទ្រីលានប្រាំមួយទ្រីលានបីប៊ីលានប្រាំបីប៊ីលានបួនប៊ីលានប្រាំបីលានប្រាំលានប្រាំបួនលានបួនសែនប្រាំបីម៉ឺនពីរពាន់ប្រាំបីរយសែសិបបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(221017027208883);
-// => ពីរទ្រីលានពីរទ្រីលានមួយទ្រីលានមួយប៊ីលានប្រាំពីរប៊ីលានពីរលានប្រាំពីរលានពីរសែនប្រាំបីពាន់ប្រាំបីរយប៉ែតសិបបី
+const result = integerAsWord(50007635242282);
+// => ប្រាំទ្រីលានប្រាំពីរប៊ីលានប្រាំមួយលានបីលានប្រាំលានពីរសែនបួនម៉ឺនពីរពាន់ពីររយប៉ែតសិបពីរ
 ```
 
 
@@ -206,4 +206,4 @@ SOFTWARE.
 ```
 
 ---
->The file is generated at 2022-11-10T05:21:26.802Z
+>The file is generated at 2022-11-10T05:22:33.211Z

@@ -23,7 +23,7 @@ function integerAsWord(value, sep = "") {
   if (value < 10) return SINGLE_DIGITS[value];
   if (value < 100) {
     const r = value % 10;
-    if (r == 0) return MULTIPLE_DIGITS[~~(value / 10)];
+    if (r == 0) return MULTIPLE_DIGITS[Math.floor(value / 10)];
     return MULTIPLE_DIGITS[Math.floor(value / 10)] + integerAsWord(r, sep)
   }  let i = Math.floor(Math.log10(value));
   const d = Math.pow(10, i);
