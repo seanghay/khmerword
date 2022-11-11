@@ -7,7 +7,7 @@
 export declare function integer(value: number, sep?: string): string;
 
 /**
- * Convert an integer into Khmer word.
+ * Convert a decimal into Khmer word.
  * @param {number} value 
  * @param {string | undefined} sep separator
  * @param {string | undefined} del delimiter

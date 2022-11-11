@@ -40,7 +40,7 @@ export function integer(value, sep = "") {
 }
 
 /**
- * Convert an integer into Khmer word.
+ * Convert an decimal into Khmer word.
  * @param {number} value 
  * @param {string | undefined} sep separator
  * @param {string | undefined} del delimiter
