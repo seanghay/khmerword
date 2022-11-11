@@ -25,9 +25,9 @@ export function integerAsWord(value, sep = "") {
     return MULTIPLE_DIGITS[~~(value / 10)] + integerAsWord(r, sep)
   };
   let i = ~~(Math.log10(value));
-  const d = Math.pow(10, i);
   while (!SUFFIX_MAP.has(i) && i > 0) { i--; }
-  const pre = SINGLE_DIGITS[~~(value / d)];
+  const d = Math.pow(10, i);
+  const pre = integerAsWord(~~(value / d), sep);
   const suf = SUFFIX_MAP.get(i);
   const r = value % d;
   if (r == 0) return pre + suf;

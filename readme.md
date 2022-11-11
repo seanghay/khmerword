@@ -83,99 +83,99 @@ const result = integerAsWord(9, "-");
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(23, "-");
-// => ម្ភៃបី
+const result = integerAsWord(18, "-");
+// => ដប់ប្រាំបី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(707, "-");
-// => ប្រាំពីររយ-ប្រាំពីរ
+const result = integerAsWord(7, "-");
+// => ប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(1634, "-");
-// => មួយពាន់-ប្រាំមួយរយ-សាមសិបបួន
+const result = integerAsWord(259, "-");
+// => ពីររយ-ហាសិបប្រាំបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(10000, "-");
-// => មួយម៉ឺន
+const result = integerAsWord(60062, "-");
+// => ប្រាំមួយម៉ឺន-ហុកសិបពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(157515, "-");
-// => មួយសែន-ប្រាំម៉ឺន-ប្រាំពីរពាន់-ប្រាំរយ-ដប់ប្រាំ
+const result = integerAsWord(323535, "-");
+// => បីសែន-ពីរម៉ឺន-បីពាន់-ប្រាំរយ-សាមសិបប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(3816987, "-");
-// => បីលាន-ប្រាំបីសែន-មួយម៉ឺន-ប្រាំមួយពាន់-ប្រាំបួនរយ-ប៉ែតសិបប្រាំពីរ
+const result = integerAsWord(4175401, "-");
+// => បួនលាន-មួយសែន-ប្រាំពីរម៉ឺន-ប្រាំពាន់-បួនរយ-មួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(11512628, "-");
-// => មួយលាន-មួយលាន-ប្រាំសែន-មួយម៉ឺន-ពីរពាន់-ប្រាំមួយរយ-ម្ភៃប្រាំបី
+const result = integerAsWord(36366013, "-");
+// => សាមសិបប្រាំមួយលាន-បីសែន-ប្រាំមួយម៉ឺន-ប្រាំមួយពាន់-ដប់បី
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(484927911, "-");
-// => បួនលាន-ប្រាំបីលាន-បួនលាន-ប្រាំបួនសែន-ពីរម៉ឺន-ប្រាំពីរពាន់-ប្រាំបួនរយ-ដប់មួយ
+const result = integerAsWord(102395755, "-");
+// => មួយរយ-ពីរលាន-បីសែន-ប្រាំបួនម៉ឺន-ប្រាំពាន់-ប្រាំពីររយ-ហាសិបប្រាំ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(5923631249, "-");
-// => ប្រាំប៊ីលាន-ប្រាំបួនលាន-ពីរលាន-បីលាន-ប្រាំមួយសែន-បីម៉ឺន-មួយពាន់-ពីររយ-សែសិបប្រាំបួន
+const result = integerAsWord(6233997667, "-");
+// => ប្រាំមួយប៊ីលាន-ពីររយ-សាមសិបបីលាន-ប្រាំបួនសែន-ប្រាំបួនម៉ឺន-ប្រាំពីរពាន់-ប្រាំមួយរយ-ហុកសិបប្រាំពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(74138961608, "-");
-// => ប្រាំពីរប៊ីលាន-បួនប៊ីលាន-មួយលាន-បីលាន-ប្រាំបីលាន-ប្រាំបួនសែន-ប្រាំមួយម៉ឺន-មួយពាន់-ប្រាំមួយរយ-ប្រាំបី
+const result = integerAsWord(48264398229, "-");
+// => សែសិបប្រាំបីប៊ីលាន-ពីររយ-ហុកសិបបួនលាន-បីសែន-ប្រាំបួនម៉ឺន-ប្រាំបីពាន់-ពីររយ-ម្ភៃប្រាំបួន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(432829119618, "-");
-// => បួនប៊ីលាន-បីប៊ីលាន-ពីរប៊ីលាន-ប្រាំបីលាន-ពីរលាន-ប្រាំបួនលាន-មួយសែន-មួយម៉ឺន-ប្រាំបួនពាន់-ប្រាំមួយរយ-ដប់ប្រាំបី
+const result = integerAsWord(204487715062, "-");
+// => ពីររយ-បួនប៊ីលាន-បួនរយ-ប៉ែតសិបប្រាំពីរលាន-ប្រាំពីរសែន-មួយម៉ឺន-ប្រាំពាន់-ហុកសិបពីរ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(5065825352484, "-");
-// => ប្រាំទ្រីលាន-ប្រាំមួយប៊ីលាន-ប្រាំប៊ីលាន-ប្រាំបីលាន-ពីរលាន-ប្រាំលាន-បីសែន-ប្រាំម៉ឺន-ពីរពាន់-បួនរយ-ប៉ែតសិបបួន
+const result = integerAsWord(4723816039121, "-");
+// => បួនទ្រីលាន-ប្រាំពីររយ-ម្ភៃបីប៊ីលាន-ប្រាំបីរយ-ដប់ប្រាំមួយលាន-បីម៉ឺន-ប្រាំបួនពាន់-មួយរយ-ម្ភៃមួយ
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(19603642625833, "-");
-// => មួយទ្រីលាន-ប្រាំបួនទ្រីលាន-ប្រាំមួយប៊ីលាន-បីប៊ីលាន-ប្រាំមួយលាន-បួនលាន-ពីរលាន-ប្រាំមួយសែន-ពីរម៉ឺន-ប្រាំពាន់-ប្រាំបីរយ-សាមសិបបី
+const result = integerAsWord(10000000000000, "-");
+// => ដប់ទ្រីលាន
 ```
 
 ```js
 import { integerAsWord } from "khmerword";
 
-const result = integerAsWord(100000000000000, "-");
-// => មួយទ្រីលាន
+const result = integerAsWord(294015802420052, "-");
+// => ពីររយ-កៅសិបបួនទ្រីលាន-ដប់ប្រាំប៊ីលាន-ប្រាំបីរយ-ពីរលាន-បួនសែន-ពីរម៉ឺន-ហាសិបពីរ
 ```
 
 
@@ -206,4 +206,4 @@ SOFTWARE.
 ```
 
 ---
->The file is generated at 2022-11-10T05:26:58.972Z
+>The file is generated at 2022-11-11T04:06:56.670Z
