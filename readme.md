@@ -28,6 +28,7 @@ const result = decimal(1234.1234, "-");
 ## Related
 
 - [vh13294/number-to-khmer-word](https://github.com/vh13294/number-to-khmer-word)
+- [seanghay/khmernumber](https://github.com/seanghay/khmernumber)
 
 ## License
 
