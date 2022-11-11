@@ -1,6 +1,6 @@
 ## Khmer word from integer 
 
-Convert unsinged integer to Khmer word
+Convert unsigned integer/decimal to Khmer word
 
 ## Installation
 
