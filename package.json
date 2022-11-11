@@ -11,7 +11,8 @@
 	],
 	"scripts": {
 		"build": "rollup index.js --file cjs/index.js --format cjs",
-		"test": "c8 ava"
+		"test": "c8 ava",
+		"prepublishOnly": "npm run build"
 	},
 	"keywords": [
 		"khmer",

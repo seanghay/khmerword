@@ -19,21 +19,25 @@ const SUFFIX_MAP = new Map([
  * @param {string | undefined} sep separator
  * @returns {string}
  */
-function integerAsWord(value, sep = "") {
+function integer(value, sep = "") {
   if (Number.isNaN(value)) return '';
+
+  // make sure it's integer
+  value = Math.floor(value);
+
   if (value < 10) return SINGLE_DIGITS[value];
   if (value < 100) {
     const r = value % 10;
     if (r == 0) return MULTIPLE_DIGITS[Math.floor(value / 10)];
-    return MULTIPLE_DIGITS[Math.floor(value / 10)] + integerAsWord(r, sep)
+    return MULTIPLE_DIGITS[Math.floor(value / 10)] + integer(r, sep)
   }  let i = Math.floor(Math.log10(value));
   while (!SUFFIX_MAP.has(i) && i > 0) { i--; }
   const d = Math.pow(10, i);
-  const pre = integerAsWord(Math.floor(value / d), sep);
+  const pre = integer(Math.floor(value / d), sep);
   const suf = SUFFIX_MAP.get(i);
   const r = value % d;
   if (r == 0) return pre + suf;
-  return pre + suf + sep + integerAsWord(r, sep);
+  return pre + suf + sep + integer(r, sep);
 }
 
 /**
@@ -43,13 +47,13 @@ function integerAsWord(value, sep = "") {
  * @param {string | undefined} del delimiter
  * @returns {string}
  */
-function decimalAsWord(value, sep = "", del = "*ក្បៀស*") {
+function decimal(value, sep = "", del = "*ក្បៀស*") {
   if (Number.isNaN(value)) return '';
-  if (Number.isInteger(value)) return integerAsWord(value, sep);
+  if (Number.isInteger(value)) return integer(value, sep);
   const right = value.toString().split('.')[1];
-  const word = right.split('').map(char => integerAsWord(+char)).join(sep);
-  return integerAsWord(Math.floor(value), sep) + del + word;
+  const word = right.split('').map(char => integer(+char)).join(sep);
+  return integer(Math.floor(value), sep) + del + word;
 }
 
-exports.decimalAsWord = decimalAsWord;
-exports.integerAsWord = integerAsWord;
+exports.decimal = decimal;
+exports.integer = integer;
