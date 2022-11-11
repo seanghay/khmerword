@@ -12,6 +12,14 @@ test("convert integer 50", t => {
   t.deepEqual(integer(50), "ហាសិប")
 })
 
+test("convert integer -50", t => {
+  t.deepEqual(integer(-50), "*ដក*ហាសិប")
+})
+
+test("convert integer -1", t => {
+  t.deepEqual(integer(-1), "*ដក*មួយ")
+})
+
 test("convert integer 0", t => {
   t.deepEqual(integer(0, "-"), "សូន្យ");
   t.deepEqual(decimal(0, "-", "__DEL__"), "សូន្យ");

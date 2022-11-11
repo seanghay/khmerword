@@ -38,6 +38,14 @@ test("convert integer 50", t => {
   t.deepEqual(integer(50), "ហាសិប")
 })
 
+test("convert integer -50", t => {
+  t.deepEqual(integer(-50), "*ដក*ហាសិប")
+})
+
+test("convert integer -1", t => {
+  t.deepEqual(integer(-1), "*ដក*មួយ")
+})
+
 `
 
 const fixtures = createFixtures();

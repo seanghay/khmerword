@@ -1,6 +1,6 @@
 ## Khmer word from integer 
 
-Convert unsigned integer/decimal to Khmer word
+Convert integer/decimal to Khmer word
 
 ## Installation
 
@@ -22,6 +22,9 @@ const result = integer(5246111515165, "-");
 
 const result = decimal(1234.1234, "-");
 // => មួយពាន់-ពីររយ-សាមសិបបួន*ក្បៀស*មួយ-ពីរ-បី-បួន
+
+const result = integer(-1);
+// =>  *ដក*មួយ
 ```
 
 
