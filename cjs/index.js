@@ -21,8 +21,7 @@ const SUFFIX_MAP = new Map([
  */
 function integer(value, sep = "") {
   if (Number.isNaN(value)) return '';
-
-  // make sure it's integer
+  if (value < 0) return '*ដក*' + integer(Math.abs(value), sep);
   value = Math.floor(value);
 
   if (value < 10) return SINGLE_DIGITS[value];
