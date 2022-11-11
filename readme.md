@@ -11,7 +11,11 @@ npm install khmerword
 ## Usage
 
 ```js
-import { integer, decimal } from 'khmerword'
+// ESM
+import { integer, decimal } from 'khmerword';
+
+// CommonJS
+const { integer, decimal } = require('khmerword/cjs');
 
 const result = integer(5246111515165, "-");
 // => ប្រាំទ្រីលាន-ពីររយ-សែសិបប្រាំមួយប៊ីលាន-មួយរយ-ដប់មួយលាន-ប្រាំសែន-មួយម៉ឺន-ប្រាំពាន់-មួយរយ-ហុកសិបប្រាំ
