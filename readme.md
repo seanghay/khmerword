@@ -32,6 +32,7 @@ const result = integer(-1);
 
 - [vh13294/number-to-khmer-word](https://github.com/vh13294/number-to-khmer-word)
 - [seanghay/khmernumber](https://github.com/seanghay/khmernumber)
+- [seanghay/khmercal](https://github.com/seanghay/khmercal)
 
 ## License
 
