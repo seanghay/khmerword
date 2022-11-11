@@ -1,6 +1,6 @@
 {
 	"name": "khmerword",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Khmer number to word",
 	"type": "module",
 	"repository": "seanghay/khmerword",
