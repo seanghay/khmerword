@@ -20,6 +20,11 @@ const result = decimal(1234.1234, "-");
 // => មួយពាន់-ពីររយ-សាមសិបបួន*ក្បៀស*មួយ-ពីរ-បី-បួន
 ```
 
+
+## Related
+
+- [vh13294/number-to-khmer-word](https://github.com/vh13294/number-to-khmer-word)
+
 ## License
 
 ```
@@ -45,6 +50,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
->The file is generated at 2022-11-11T06:09:21.183Z
